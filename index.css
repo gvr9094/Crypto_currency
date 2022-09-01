@@ -1,0 +1,104 @@
+
+
+body{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,h7,p{
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+}
+.nav > h1{
+    padding-top: 10px; 
+    color:white;
+   
+}
+.list{
+display: flex;
+padding-left: 40%;
+}
+.list > li{
+    color:white;
+    list-style: none;
+    padding-left:60px;
+}
+.main{
+    display: flex;
+    background-image:linear-gradient(to right, blue,lightblue );
+    justify-content: space-around;
+}
+.main > div{
+    display: block;
+
+}
+.main-img{
+    width: 30%;
+}
+.float-left{
+width:30px;
+height: 30px;
+}
+.trending_coin >.scroll_animation ,.features {
+    display: flex;
+}
+.scroll_animation{
+    position: relative;
+    animation-name:smooth_scroll;
+    animation-duration: 30s;
+    animation-delay: 1s;;
+    animation-iteration-count: infinite;
+}
+@keyframes smooth_scroll{
+    from {
+        left : 0%;
+    }
+    to {
+        left : -50%;
+    }
+}
+
+.trending_coin{
+    padding: 2rem;
+    background-color:black;
+   justify-content: space-evenly;
+}
+.trending_coin .coin{
+    flex-wrap: nowrap;
+    border-radius: 5%;
+    background-color:greenyellow;
+    padding:1.2rem;
+    margin-right: 30px;
+    height: 2em;
+    flex-shrink:0;
+}
+.float-right{
+    float: right;
+    padding-left:10px;
+}    
+.features{
+    background-COLOR:#E7E7E9;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.features >.card{
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    padding: 1rem;
+}
+footer{
+    background-color:white;
+    text-align: center;
+    padding: 1rem;
+}
+footer a {
+    color:black;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Anek Tamil', sans-serif;
+    letter-spacing: 1px;  
+}
+
