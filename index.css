@@ -64,7 +64,6 @@ height: 30px;
 .trending_coin{
     overflow-x : hidden;
     padding: 2rem;
-    background-color:black;
    justify-content: space-evenly;
 }
 .trending_coin .coin{
